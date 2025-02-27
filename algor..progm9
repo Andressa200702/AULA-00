@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int numero1;
+    int numero2;
+    
+    printf("Leia dois valores distintos: ");
+    scanf("%d %d", &numero1, &numero2);
+    
+    //Verificar qual número é maior e quais são iguais
+    if (numero1 == numero2) {
+        printf("Os números são iguais: %d e %d\n", numero1, numero2);
+    } else if (numero1 > numero2) {
+        printf("O maior número é: %d\n", numero1);
+    } else {
+        printf("O maior número é: &d\n", numero2);
+    } 
+    
+    return 0;
+}
