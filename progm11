@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int number1;
+    int number2;
+    
+    printf("Digite dois numeros: ");
+    scanf("%d %d", &number1, &number2);
+    
+    //Informar se os dois numeros é maior que 10
+    if (number1 > 10 && number2 > 10) {
+        printf("SIM!!!\n", number1, number2);
+    }
+    return 0;
+}
