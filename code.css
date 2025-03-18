@@ -97,3 +97,9 @@ h1{
     color: #900;
     font-weight: bold; 
 }
+
+footer {
+    background-color: #900;
+    padding: 15px;
+    margin-top: 0px;
+}

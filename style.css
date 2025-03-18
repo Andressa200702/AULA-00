@@ -53,7 +53,8 @@ nav ul li a {
 
 nav ul li a:hover, .active {
     color: rgb(7, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
+    text-decoration: underline;
+    border-bottom: black;
 }
 
 .banner {
@@ -97,7 +98,7 @@ nav ul li a:hover, .active {
 }
 
 footer {
-    background-color: black;
+    background-color: #900;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
