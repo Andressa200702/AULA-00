@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Cores principais */
+  :root {
+    --verde-principal: #2e7d32;
+    --verde-escuro: #1b5e20;
+    --verde-claro: #a5d6a7;
+    --cinza-claro: #f1f1f1;
+    --cinza-escuro: #333;
+    --branco: #ffffff;
+  }
+  
+  /* Tipografia */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: var(--verde-principal);
+    color: var(--branco);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Navegação */
+  nav {
+    background-color: var(--verde-escuro);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: var(--branco);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover,
+  nav a.ativo {
+    color: var(--verde-claro);
+    border-bottom: 2px solid var(--verde-claro);
+  }
+  
+  img{
+     
+      margin: 30px auto;
+      display: block;
+
+  }
+  /* Conteúdo principal */
+  main {
+    padding: 30px;
+    background-color: var(--branco);
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }
+  
